@@ -5,6 +5,7 @@ let s = 'color picker';
 let font;
 fontsize = 40;
 
+
 function preload() {
   img = loadImage("./assets/off.png");
   img2 = loadImage("./assets/offfloor.jpg");
@@ -93,6 +94,7 @@ function draw() {
         let y = sin(m) * r;
         vertex(x, y);
       }
+      
       endShape(CLOSE);
       pop();
     }
