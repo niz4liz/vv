@@ -5,7 +5,6 @@ let s = 'color picker';
 let font;
 fontsize = 40;
 
-
 function preload() {
   img = loadImage("./assets/off.png");
   img2 = loadImage("./assets/offfloor.jpg");
