@@ -15,7 +15,7 @@ function setup() {
   extraCanvas = createGraphics(100, 100);
   extraCanvas.clear();
   noStroke();
-  colorPicker = createColorPicker("#FFA500");
+  colorPicker = createColorPicker("#FF0000");
   colorPicker.position(15,170);
   font = loadFont("./assets/OCRAEXT.TTF")
 
