@@ -5,6 +5,7 @@ let s = 'color picker';
 let font;
 fontsize = 40;
 
+
 function preload() {
   img = loadImage("./assets/mona.png");
   img2 = loadImage("./assets/monafloor.jpg");
