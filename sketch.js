@@ -89,7 +89,7 @@ function draw() {
       rotate(random(PI * 2));
       beginShape();
       for (m = 0; m < PI * 2; m += 1) {
-        r = random(2, 10);
+        r = random(2, 6);
         let x = cos(m) * r;
         let y = sin(m) * r;
         vertex(x, y);
